@@ -1,14 +1,285 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "name": "Varsha",
+      "token": "asaserfcvcwsa"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "edge": [
+    {
+      "id": 1,
+      "edgeName": "abcd",
+      "ipAddress": "101.11.21.101"
+    },
+    {
+      "id": 2,
+      "edgeName": "pqr",
+      "ipAddress": "101.11.21.102"
+    },
+    {
+      "id": 3,
+      "edgeName": "xyz",
+      "ipAddress": "101.11.21.103"
+    },
+    {
+      "id": 4,
+      "edgeName": "abcd",
+      "ipAddress": "101.11.21.105"
+    },
+    {
+      "id": 5,
+      "edgeName": "abcd",
+      "ipAddress": "101.11.21.106"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "sspMaster": [
+    {
+      "id": 1,
+      "sspName": "sspabc",
+      "endPoint": "http://localhost:3000",
+      "configuration": [
+        {
+          "parameterName": "pid",
+          "dbField": "Program_Episode",
+          "defaultValue": "auto",
+          "isComputed": 1,
+          "isActive": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sspName": "ssppqr",
+      "endPoint": "http://localhost:3000",
+      "configuration": [
+        {
+          "parameterName": "dma",
+          "dbField": "DMA",
+          "defaultValue": "100",
+          "isComputed": 0,
+          "isActive": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sspName": "ssplmn",
+      "endPoint": "http://localhost:3000",
+      "configuration": [
+        {
+          "parameterName": "eimp",
+          "dbField": "Estimated_Impressions",
+          "defaultValue": "50",
+          "isComputed": 1,
+          "isActive": 0
+        }
+      ]
+    },
+    {
+      "sspName": "htposdas",
+      "endPoint": "http://localhost:3000",
+      "id": 4
+    }
+  ],
+  "videoLibrary": [
+    {
+      "id": 1,
+      "edgeName": "edge1",
+      "fileName": "puma_30",
+      "duration": 30
+    },
+    {
+      "id": 2,
+      "edgeName": "edge2",
+      "fileName": "adidas_25",
+      "duration": 25
+    },
+    {
+      "id": 3,
+      "edgeName": "edge3",
+      "fileName": "roadster_26",
+      "duration": 26
+    },
+    {
+      "id": 4,
+      "edgeName": "edge1",
+      "fileName": "Hamleys_35",
+      "duration": 35
+    },
+    {
+      "edgeName": "sdsdsd",
+      "fileName": "H&M_sdsd",
+      "duration": "31",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "edgeName": "edge2",
+      "fileName": "Bata_25",
+      "duration": 25
+    },
+    {
+      "edgeName": "edge1",
+      "fileName": "Reliance_26",
+      "duration": 26,
+      "id": 7
+    }
+  ],
+  "greenList": [
+    {
+      "id": 1,
+      "name": "greenlist1",
+      "duration": 30,
+      "usageCount": 12
+    },
+    {
+      "id": 2,
+      "name": "greenlist2",
+      "duration": 35,
+      "usageCount": 50
+    },
+    {
+      "id": 3,
+      "name": "greenlist3",
+      "duration": 20,
+      "usageCount": 20
+    },
+    {
+      "id": 7,
+      "name": "greenlist6",
+      "duration": 35,
+      "usageCount": 34
+    },
+    {
+      "id": 9,
+      "name": "greenlist8",
+      "duration": 26,
+      "usageCount": 42
+    },
+    {
+      "id": 10,
+      "name": "greenlist9",
+      "duration": 25,
+      "usageCount": 63
+    },
+    {
+      "name": "Varsha",
+      "duration": "31",
+      "usageCount": "150",
+      "id": 11
+    },
+    {
+      "name": "Tejas",
+      "duration": "51",
+      "usageCount": "122",
+      "id": 13
+    },
+    {
+      "name": "bvbvb",
+      "duration": "56",
+      "usageCount": "767",
+      "id": 14
+    }
+  ],
+  "businessRules": [
+    {
+      "id": 1,
+      "businessRule": "Rule For HGTV Product Type",
+      "ruleType": "Product Type",
+      "ruleValue": "Marketing Partners",
+      "includeExclude": "Include",
+      "value": "40%",
+      "sequence": 2,
+      "network": "HGTV",
+      "zone": "HTHT"
+    },
+    {
+      "id": 2,
+      "businessRule": "Rule For MTV Spot Type",
+      "ruleType": "Spot Type",
+      "ruleValue": "Fill",
+      "includeExclude": "Exclude",
+      "value": "30%",
+      "sequence": 3,
+      "network": "MTV",
+      "zone": "HTHT"
+    },
+    {
+      "businessRule": "Rule For ZTV Priority Code",
+      "network": "ZTV",
+      "zone": "HTZT",
+      "ruleType": "Priority Code",
+      "ruleValue": "1-10",
+      "includeExclude": "Include",
+      "value": "20%",
+      "sequence": 1,
+      "id": 3
+    },
+    {
+      "businessRule": "Rule for FTH",
+      "network": "ZT",
+      "zone": "THTV",
+      "ruleType": "Product Typee",
+      "ruleValue": "Hotel",
+      "includeExclude": "Exclude",
+      "value": "50",
+      "sequence": "6",
+      "id": 5
+    },
+    {
+      "businessRule": "Rule for FTHR",
+      "network": "FTR",
+      "zone": "THR",
+      "ruleType": "Priority Code",
+      "ruleValue": "1-100",
+      "includeExclude": "Include",
+      "value": "50",
+      "sequence": "3",
+      "id": 6
+    }
+  ],
+  "masterNetworkZoneList": [
+    {
+      "adServerId": "adserver111",
+      "qttMasterkey": "HGTV_HTHT",
+      "cueNet": "HGTV",
+      "cueZone": "HTHH",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "adServerId": "adserver112",
+      "qttMasterkey": "ZTV_HTHT",
+      "cueNet": "ZTV",
+      "cueZone": "HTHT"
+    },
+    {
+      "adServerId": "adserver113",
+      "qttMasterkey": "MTV_HZT",
+      "cueNet": "MTV",
+      "cueZone": "HZT",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "adServerId": "adserver114",
+      "qttMasterkey": "GTV_THT",
+      "cueNet": "GTV",
+      "cueZone": "THT"
+    },
+    {
+      "id": 5,
+      "adServerId": "adserver115",
+      "qttMasterkey": "HTV_HT",
+      "cueNet": "HTV",
+      "cueZone": "HT"
+    },
+    {
+      "adServerId": "adserver117",
+      "qttMasterkey": "FTV_HT",
+      "cueNet": "FTV",
+      "cueZone": "HT",
+      "id": 7
+    }
+  ]
 }
