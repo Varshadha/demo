@@ -1,37 +1,5 @@
 {
-  "users": [
-    {
-      "name": "Varsha",
-      "token": "asaserfcvcwsa"
-    }
-  ],
-  "edge": [
-    {
-      "id": 1,
-      "edgeName": "abcd",
-      "ipAddress": "101.11.21.101"
-    },
-    {
-      "id": 2,
-      "edgeName": "pqr",
-      "ipAddress": "101.11.21.102"
-    },
-    {
-      "id": 3,
-      "edgeName": "xyz",
-      "ipAddress": "101.11.21.103"
-    },
-    {
-      "id": 4,
-      "edgeName": "abcd",
-      "ipAddress": "101.11.21.105"
-    },
-    {
-      "id": 5,
-      "edgeName": "abcd",
-      "ipAddress": "101.11.21.106"
-    }
-  ],
+ 
   "sspMaster": [
     {
       "id": 1,
