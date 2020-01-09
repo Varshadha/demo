@@ -1,4 +1,10 @@
 {
+ /*"users": [
+    {
+      "name": "Varsha",
+      "token": "asaserfcvcwsa"
+    }
+  ],
  "edge": [
     {
       "id": 1,
@@ -25,7 +31,7 @@
       "edgeName": "abcd",
       "ipAddress": "101.11.21.106"
     }
-  ],
+  ],*/
   "sspMaster": [
     {
       "id": 1,
