@@ -1,6 +1,5 @@
-{ 
-  
-  "sspMaster": [
+{
+"sspMaster": [
     {
       "id": 1,
       "sspName": "sspabc",
@@ -250,4 +249,5 @@
       "id": 7
     }
   ]
+
 }
