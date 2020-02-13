@@ -1,253 +1,232 @@
 {
-"sspMaster": [
+  "edge": [
     {
-      "id": 1,
-      "sspName": "sspabc",
-      "endPoint": "http://localhost:3000",
-      "configuration": [
-        {
-          "parameterName": "pid",
-          "dbField": "Program_Episode",
-          "defaultValue": "auto",
-          "isComputed": 1,
-          "isActive": 0
-        }
-      ]
+      "edgeId": "Edge Id 1",
+      "edgeServerName": "edge server name 1",
+      "ipAddress": "101.11.21.102",
+      "date": "2020-01-02 10:10:10",
+      "id": 1
     },
     {
-      "id": 2,
-      "sspName": "ssppqr",
-      "endPoint": "http://localhost:3000",
-      "configuration": [
-        {
-          "parameterName": "dma",
-          "dbField": "DMA",
-          "defaultValue": "100",
-          "isComputed": 0,
-          "isActive": 0
-        }
-      ]
+      "edgeId": "Edge Id 2",
+      "edgeServerName": "edge server name 2",
+      "ipAddress": "101.11.21.102",
+      "date": "2020-01-02 10:10:10",
+      "id": 2
     },
     {
-      "id": 3,
-      "sspName": "ssplmn",
-      "endPoint": "http://localhost:3000",
-      "configuration": [
-        {
-          "parameterName": "eimp",
-          "dbField": "Estimated_Impressions",
-          "defaultValue": "50",
-          "isComputed": 1,
-          "isActive": 0
-        }
-      ]
-    },
-    {
-      "sspName": "htposdas",
-      "endPoint": "http://localhost:3000",
-      "id": 4
-    }
-  ],
-  "videoLibrary": [
-    {
-      "id": 1,
-      "edgeName": "edge1",
-      "fileName": "puma_30",
-      "duration": 30
-    },
-    {
-      "id": 2,
-      "edgeName": "edge2",
-      "fileName": "adidas_25",
-      "duration": 25
-    },
-    {
-      "id": 3,
-      "edgeName": "edge3",
-      "fileName": "roadster_26",
-      "duration": 26
+      "edgeId": "Edge Id 3",
+      "edgeServerName": "edge server name 3",
+      "ipAddress": "101.11.21.133",
+      "date": "2020-02-02 10:10:10",
+      "id": 3
     },
     {
       "id": 4,
-      "edgeName": "edge1",
-      "fileName": "Hamleys_35",
-      "duration": 35
+      "edgeId": "Edge Id 4",
+      "edgeServerName": "edge server name 4",
+      "ipAddress": "101.11.21.105",
+      "date": "2020-03-02 10:10:10"
     },
     {
-      "edgeName": "sdsdsd",
-      "fileName": "H&M_sdsd",
-      "duration": "31",
-      "id": 5
+      "id": 5,
+      "edgeId": "Edge Id 5",
+      "edgeServerName": "edge server name 5",
+      "ipAddress": "101.11.21.106",
+      "date": "2020-04-02 10:10:10"
     },
     {
-      "id": 6,
-      "edgeName": "edge2",
-      "fileName": "Bata_25",
-      "duration": 25
+      "edgeId": "Edge Id 6",
+      "edgeServerName": "edge server name 6",
+      "ipAddress": "127.0.0.12",
+      "date": "2020-03-02 10:10:10",
+      "id": 6
     },
     {
-      "edgeName": "edge1",
-      "fileName": "Reliance_26",
-      "duration": 26,
+      "edgeId": "Edge Id 7",
+      "edgeServerName": "edge server name 7",
+      "ipAddress": "255.255.255.255",
+      "date": "2020-03-02 10:10:10",
       "id": 7
+    },
+    {
+      "edgeId": "Edge Id 8",
+      "edgeServerName": "edge server name 8",
+      "ipAddress": "132.254.111.10",
+      "date": "2020-03-02 10:10:10",
+      "id": 9
+    },
+    {
+      "edgeId": "Edge Id 9",
+      "edgeServerName": "edge server name 9",
+      "ipAddress": "124.54.44.33",
+      "date": "2020-03-02 10:10:10",
+      "id": 10
     }
   ],
   "greenList": [
     {
-      "id": 1,
-      "name": "greenlist1",
-      "duration": 30,
-      "usageCount": 12
-    },
-    {
-      "id": 2,
-      "name": "greenlist2",
-      "duration": 35,
-      "usageCount": 50
-    },
-    {
-      "id": 3,
-      "name": "greenlist3",
-      "duration": 20,
-      "usageCount": 20
-    },
-    {
-      "id": 7,
-      "name": "greenlist6",
-      "duration": 35,
-      "usageCount": 34
-    },
-    {
-      "id": 9,
-      "name": "greenlist8",
-      "duration": 26,
-      "usageCount": 42
-    },
-    {
-      "id": 10,
-      "name": "greenlist9",
-      "duration": 25,
-      "usageCount": 63
-    },
-    {
-      "name": "greenlist10",
-      "duration": "31",
-      "usageCount": "150",
-      "id": 11
-    },
-    {
-      "name": "greenlist11",
-      "duration": "51",
-      "usageCount": "122",
-      "id": 13
-    },
-    {
-      "name": "greenlist12",
-      "duration": "56",
-      "usageCount": "767",
-      "id": 14
-    }
-  ],
-  "businessRules": [
-    {
-      "id": 1,
-      "businessRule": "Rule For HGTV Product Type",
-      "ruleType": "Product Type",
-      "ruleValue": "Marketing Partners",
-      "includeExclude": "Include",
-      "value": "40%",
-      "sequence": 2,
-      "network": "HGTV",
-      "zone": "HTHT"
-    },
-    {
-      "id": 2,
-      "businessRule": "Rule For MTV Spot Type",
-      "ruleType": "Spot Type",
-      "ruleValue": "Fill",
-      "includeExclude": "Exclude",
-      "value": "30%",
-      "sequence": 3,
-      "network": "MTV",
-      "zone": "HTHT"
-    },
-    {
-      "businessRule": "Rule For ZTV Priority Code",
-      "network": "ZTV",
-      "zone": "HTZT",
-      "ruleType": "Priority Code",
-      "ruleValue": "1-10",
-      "includeExclude": "Include",
-      "value": "20%",
-      "sequence": 1,
-      "id": 3
-    },
-    {
-      "businessRule": "Rule for FTH",
-      "network": "ZT",
-      "zone": "THTV",
-      "ruleType": "Product Typee",
-      "ruleValue": "Hotel",
-      "includeExclude": "Exclude",
-      "value": "50",
-      "sequence": "6",
-      "id": 5
-    },
-    {
-      "businessRule": "Rule for FTHR",
-      "network": "FTR",
-      "zone": "THR",
-      "ruleType": "Priority Code",
-      "ruleValue": "1-100",
-      "includeExclude": "Include",
-      "value": "50",
-      "sequence": "3",
-      "id": 6
-    }
-  ],
-  "masterNetworkZoneList": [
-    {
-      "adServerId": "adserver111",
-      "qttMasterkey": "HGTV_HTHT",
-      "cueNet": "HGTV",
-      "cueZone": "HTHH",
+      "name": "greenlist name 1",
+      "duration": "18",
+      "usageCount": 20,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
       "id": 1
     },
     {
-      "id": 2,
-      "adServerId": "adserver112",
-      "qttMasterkey": "ZTV_HTHT",
-      "cueNet": "ZTV",
-      "cueZone": "HTHT"
+      "name": "greenlist name 2",
+      "duration": "22",
+      "usageCount": 20,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
+      "id": 2
     },
     {
-      "adServerId": "adserver113",
-      "qttMasterkey": "MTV_HZT",
-      "cueNet": "MTV",
-      "cueZone": "HZT",
+      "name": "greenlist name 3",
+      "duration": "21",
+      "usageCount": 20,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
       "id": 3
     },
     {
-      "id": 4,
-      "adServerId": "adserver114",
-      "qttMasterkey": "GTV_THT",
-      "cueNet": "GTV",
-      "cueZone": "THT"
+      "name": "greenlist name 4",
+      "duration": "13",
+      "usageCount": 23,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
+      "id": 4
     },
     {
-      "id": 5,
-      "adServerId": "adserver115",
-      "qttMasterkey": "HTV_HT",
-      "cueNet": "HTV",
-      "cueZone": "HT"
+      "name": "greenlist name 5",
+      "duration": "26",
+      "usageCount": 42,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
+      "id": 9
     },
     {
-      "adServerId": "adserver117",
-      "qttMasterkey": "FTV_HT",
-      "cueNet": "FTV",
-      "cueZone": "HT",
-      "id": 7
+      "name": "greenlist name 6",
+      "duration": "24",
+      "usageCount": 63,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
+      "id": 10
+    },
+    {
+      "name": "greenlist name 7",
+      "duration": "53",
+      "usageCount": 55,
+      "lastUsedDate": "1976-04-19T12:59-0500",
+      "date": "1976-04-19T12:59-0500",
+      "id": 14
+    }
+  ],
+  "sspMaster": [
+    {
+      "sspName": "SSP name 1",
+      "endPoint": "http://localhost:3000",
+      "date": "2019-04-19T12:59-0500",
+      "id": 1,
+      "parameters": [
+        {
+          "parameterName": "Parameter name 1",
+          "dbField": "Program_Episode",
+          "defaultValue": "",
+          "isComputed": true,
+          "date": "2019-04-19T12:59-0500",
+          "sspId": 1,
+          "id": 11
+        },
+        {
+          "id": 12,
+          "parameterName": "Parameter name 2",
+          "dbField": "",
+          "defaultValue": "auto",
+          "isComputed": false,
+          "date": "2019-04-19T12:59-0500",
+          "sspId": 1
+        }
+      ]
+    },
+    {
+      "sspName": "SSP name 2",
+      "endPoint": "http://localhost:3000",
+      "date": "2019-02-11T12:59-0500",
+      "id": 2,
+      "parameters": [
+        {
+          "id": 13,
+          "parameterName": "Parameter name 1 SSP 2",
+          "dbField": "Program_Episode",
+          "defaultValue": "",
+          "isComputed": false,
+          "date": "2019-04-19T12:59-0500",
+          "sspId": 2
+        },
+        {
+          "parameterName": "Parameter name 2 SSP 2",
+          "dbField": "Abcde",
+          "defaultValue": "",
+          "isComputed": true,
+          "date": "",
+          "id": 14
+        },
+        {
+          "parameterName": "Parameter name 3 SSP 2",
+          "dbField": "Pqrs",
+          "defaultValue": "",
+          "isComputed": true,
+          "date": "",
+          "id": 15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sspName": "SSP name 3",
+      "endPoint": "http://localhost:3000",
+      "date": "2019-04-19T12:59-0500"
+    },
+    {
+      "sspName": "SSP name 4",
+      "endPoint": "http://localhost:3000",
+      "date": "2019-04-19T12:59-0500",
+      "id": 4
+    },
+    {
+      "sspName": "SSP name 5",
+      "endPoint": "http://google.com/",
+      "id": 5
+    }
+  ],
+  "parameters": [
+    {
+      "parameterName": "Parameter name 1",
+      "dbField": "",
+      "defaultValue": "Fill",
+      "isComputed": true,
+      "date": "2019-04-19T12:59-0500",
+      "sspId": 1,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "parameterName": "Parameter name 2",
+      "dbField": "Program_Episode",
+      "defaultValue": "",
+      "isComputed": false,
+      "date": "2019-04-19T12:59-0500",
+      "sspId": 1
+    },
+    {
+      "id": 13,
+      "parameterName": "Parameter name 3",
+      "dbField": "Program_Episode",
+      "defaultValue": "",
+      "isComputed": false,
+      "date": "2019-04-19T12:59-0500",
+      "sspId": 2
     }
   ]
-
 }
