@@ -315,5 +315,16 @@
       "createdByName": "admin",
       "modifiedByName": "admin"
     }
-  ]
+  ],
+  "parameters": [
+    {
+      "id": 34,
+      "sspMasterID": 2,
+      "parameter": "account_id",
+      "dbField": null,
+      "defaultValue": "21282",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:05:34.403",
+      "modifiedDate": null
+    }]
 }
