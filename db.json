@@ -235,14 +235,34 @@
       ]
     },
     {
-      "Name": "EMX",
-      "EndPoint": "https://tv.emxdgt.com/vast?t",
-      "id": 7
+      "id": 43,
+      "sspMasterID": 2,
+      "parameter": "c_episode",
+      "dbField": "Program_Episode",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:26:14.623",
+      "modifiedDate": null
     },
     {
-      "Name": "hhh",
-      "EndPoint": "hhh",
-      "id": 8
+      "id": 44,
+      "sspMasterID": 2,
+      "parameter": "c_title",
+      "dbField": "Program",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:26:59.623",
+      "modifiedDate": null
+    },
+    {
+      "id": 45,
+      "sspMasterID": 2,
+      "parameter": "c_genre",
+      "dbField": "Program_genre1",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:28:29.147",
+      "modifiedDate": null
     }
   ],
   
