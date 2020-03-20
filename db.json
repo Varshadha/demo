@@ -426,38 +426,7 @@
       "id": 8
     }
   ],
-  "parameters": [
-    {
-      "id": 34,
-      "sspMasterID": 2,
-      "parameter": "account_id",
-      "dbField": null,
-      "defaultValue": "21282",
-      "isComputed": false,
-      "createdDate": "2019-09-25T11:05:34.403",
-      "modifiedDate": null
-    },
-    {
-      "id": 35,
-      "sspMasterID": 2,
-      "parameter": "site_id",
-      "dbField": null,
-      "defaultValue": "277254",
-      "isComputed": false,
-      "createdDate": "2019-09-25T11:07:05.077",
-      "modifiedDate": null
-    },
-    {
-      "id": 36,
-      "sspMasterID": 2,
-      "parameter": "zone_id",
-      "dbField": null,
-      "defaultValue": "1418208",
-      "isComputed": false,
-      "createdDate": "2019-09-25T11:10:03.967",
-      "modifiedDate": null
-    }
-  ],
+  
   "businessRules": [
     {
       "id": 190,
