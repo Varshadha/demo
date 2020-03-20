@@ -35,54 +35,6 @@
       "name": "Edge01111",
       "ipAddress": "192.168.0.87",
       "modifiedDate": "2020-03-18T10:33:18.57"
-    },
-    {
-      "id": "c2c216e6-d033-4272-9ce9-770b6437bae9",
-      "name": "QTTEdge101",
-      "ipAddress": "10.200.67.101",
-      "createdDate": "2019-10-24T16:21:03.62",
-      "modifiedDate": "2020-02-16T09:53:51.593",
-      "adServerId": "clvwowvs"
-    },
-    {
-      "id": "3077c225-f144-4daa-9213-159e4d197aa1",
-      "name": "qttedge1011",
-      "ipAddress": "10.200.67.1011",
-      "createdDate": "2020-03-18T12:30:28.233",
-      "modifiedDate": "2020-03-18T12:32:26.817",
-      "adServerId": null
-    },
-    {
-      "id": "c5487114-8e49-4ea9-a574-97b3d86c6644",
-      "name": "QTTEdge102",
-      "ipAddress": "10.200.67.102",
-      "createdDate": "2019-10-24T16:24:31.087",
-      "modifiedDate": "2020-02-16T09:53:51.593",
-      "adServerId": "cincybelvs"
-    },
-    {
-      "id": "643f997f-a88f-4105-81a0-5f37640d1f8f",
-      "name": "SentinelCincinnati",
-      "ipAddress": "192.168.61.40",
-      "createdDate": "2019-07-25T08:49:36.99",
-      "modifiedDate": "2020-02-16T09:53:51.593",
-      "adServerId": null
-    },
-    {
-      "id": "83333f0f-b784-4e7e-b601-c3c07cf8facb",
-      "name": "SentinelWoW",
-      "ipAddress": "192.168.41.40",
-      "createdDate": "2019-07-25T08:48:50.957",
-      "modifiedDate": "2020-02-16T09:53:51.593",
-      "adServerId": null
-    },
-    {
-      "id": "a2650e57-9acf-4722-a1c0-07d481418932",
-      "name": "testEdge",
-      "ipAddress": "test",
-      "createdDate": "2019-08-29T07:30:40.987",
-      "modifiedDate": "2020-02-16T09:53:51.593",
-      "adServerId": "labvs"
     }
   ],
   "greenList": [
@@ -125,21 +77,7 @@
       "lastUsedDate": "1976-04-19T12:59-0500",
       "date": "1976-04-19T12:59-0500",
       "id": 10
-    },
-    {
-      "name": "55875254",
-      "duration": "53",
-      "usageCount": 55,
-      "lastUsedDate": "1976-04-19T12:59-0500",
-      "date": "1976-04-19T12:59-0500",
-      "id": 14
-    },
-    {
-      "name": "5488787",
-      "duration": "34",
-      "usageCount": "",
-      "id": 15
-    }
+    }    
   ],
   "sspMaster": [
     {
@@ -177,66 +115,6 @@
           "defaultValue": "vast",
           "isComputed": false,
           "createdDate": "2019-05-13T06:06:39.757",
-          "modifiedDate": null
-        },
-        {
-          "id": 4,
-          "sspMasterID": 1,
-          "parameter": "execution",
-          "dbField": null,
-          "defaultValue": "any",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:07:36.03",
-          "modifiedDate": null
-        },
-        {
-          "id": 5,
-          "sspMasterID": 1,
-          "parameter": "placement",
-          "dbField": null,
-          "defaultValue": "",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:07:52.513",
-          "modifiedDate": null
-        },
-        {
-          "id": 6,
-          "sspMasterID": 1,
-          "parameter": "playinit",
-          "dbField": null,
-          "defaultValue": "auto",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:08:10.253",
-          "modifiedDate": null
-        },
-        {
-          "id": 7,
-          "sspMasterID": 1,
-          "parameter": "volume",
-          "dbField": null,
-          "defaultValue": "100",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:08:29.55",
-          "modifiedDate": null
-        },
-        {
-          "id": 8,
-          "sspMasterID": 1,
-          "parameter": "width",
-          "dbField": null,
-          "defaultValue": "1920",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:09:53.443",
-          "modifiedDate": null
-        },
-        {
-          "id": 9,
-          "sspMasterID": 1,
-          "parameter": "height",
-          "dbField": null,
-          "defaultValue": "1080",
-          "isComputed": false,
-          "createdDate": "2019-05-13T06:10:26.86",
           "modifiedDate": null
         }
       ]
@@ -276,26 +154,6 @@
           "defaultValue": "1418208",
           "isComputed": false,
           "createdDate": "2019-09-25T11:10:03.967",
-          "modifiedDate": null
-        },
-        {
-          "id": 37,
-          "sspMasterID": 2,
-          "parameter": "size_id",
-          "dbField": null,
-          "defaultValue": "204",
-          "isComputed": false,
-          "createdDate": "2019-09-25T11:16:22.913",
-          "modifiedDate": null
-        },
-        {
-          "id": 38,
-          "sspMasterID": 2,
-          "parameter": "tg_c.language",
-          "dbField": null,
-          "defaultValue": "En",
-          "isComputed": false,
-          "createdDate": "2019-09-25T11:17:42.903",
           "modifiedDate": null
         }        
       ]
@@ -402,16 +260,6 @@
           "isComputed": false,
           "createdDate": "2020-03-19T12:42:12.463",
           "modifiedDate": "2020-03-19T12:42:12.463"
-        },
-        {
-          "id": 75,
-          "sspMasterID": 6,
-          "parameter": "asda",
-          "dbField": "Comscore_NetId",
-          "defaultValue": "",
-          "isComputed": false,
-          "createdDate": "2020-03-19T12:42:44.443",
-          "modifiedDate": "2020-03-19T12:42:44.443"
         }
       ]
     },
