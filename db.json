@@ -1,104 +1,117 @@
 {
   "edge": [
     {
-      "edgeId": "Edge Id 1",
-      "edgeServerName": "edge server name 1",
-      "ipAddress": "101.11.21.102",
-      "date": "2020-01-02 10:10:10",
-      "id": 1
+      "id": "dc10d8d4-7586-4cb9-aae9-08f7c3afb647",
+      "name": "1Edge",
+      "ipAddress": "192.168.0.187",
+      "modifiedDate": "2020-03-18T11:22:26.19"
     },
     {
-      "edgeId": "Edge Id 2",
-      "edgeServerName": "edge server name 2",
-      "ipAddress": "101.11.21.102",
-      "date": "2020-01-02 10:10:10",
-      "id": 2
+      "id": "1c328f26-2583-4d94-8617-8c36c3499fc7",
+      "name": "1Edge01",
+      "ipAddress": "192.168.0.1871",
+      "createdDate": "2020-03-18T11:25:27.567",
+      "modifiedDate": "2020-03-18T11:25:27.567",
+      "adServerId": null
     },
     {
-      "edgeId": "Edge Id 3",
-      "edgeServerName": "edge server name 3",
-      "ipAddress": "101.11.21.133",
-      "date": "2020-02-02 10:10:10",
-      "id": 3
+      "id": "6ab8d79d-af11-46c8-bd48-498ef8671902",
+      "name": "Edge01",
+      "ipAddress": "192.168.0.87",
+      "createdDate": "2019-05-31T09:53:51.593",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": "cblabvs"
     },
     {
-      "id": 4,
-      "edgeId": "Edge Id 4",
-      "edgeServerName": "edge server name 4",
-      "ipAddress": "101.11.21.105",
-      "date": "2020-03-02 10:10:10"
+      "id": "04175322-8c0b-4b5d-a02c-2c0914e545b4",
+      "name": "Edge011",
+      "ipAddress": "192.168.0.871",
+      "createdDate": "2020-03-18T10:30:54.257",
+      "modifiedDate": "2020-03-18T10:30:54.257",
+      "adServerId": null
     },
     {
-      "id": 5,
-      "edgeId": "Edge Id 5",
-      "edgeServerName": "edge server name 5",
-      "ipAddress": "101.11.21.106",
-      "date": "2020-04-02 10:10:10"
+      "id": "eb2d512c-1bc1-4532-a5c2-78bb2dc0cc59",
+      "name": "Edge01111",
+      "ipAddress": "192.168.0.87",
+      "modifiedDate": "2020-03-18T10:33:18.57"
     },
     {
-      "edgeId": "Edge Id 6",
-      "edgeServerName": "edge server name 6",
-      "ipAddress": "127.0.0.12",
-      "date": "2020-03-02 10:10:10",
-      "id": 6
+      "id": "c2c216e6-d033-4272-9ce9-770b6437bae9",
+      "name": "QTTEdge101",
+      "ipAddress": "10.200.67.101",
+      "createdDate": "2019-10-24T16:21:03.62",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": "clvwowvs"
     },
     {
-      "edgeId": "Edge Id 7",
-      "edgeServerName": "edge server name 7",
-      "ipAddress": "255.255.255.255",
-      "date": "2020-03-02 10:10:10",
-      "id": 7
+      "id": "3077c225-f144-4daa-9213-159e4d197aa1",
+      "name": "qttedge1011",
+      "ipAddress": "10.200.67.1011",
+      "createdDate": "2020-03-18T12:30:28.233",
+      "modifiedDate": "2020-03-18T12:32:26.817",
+      "adServerId": null
     },
     {
-      "edgeId": "Edge Id 8",
-      "edgeServerName": "edge server name 8",
-      "ipAddress": "132.254.111.10",
-      "date": "2020-03-02 10:10:10",
-      "id": 9
+      "id": "c5487114-8e49-4ea9-a574-97b3d86c6644",
+      "name": "QTTEdge102",
+      "ipAddress": "10.200.67.102",
+      "createdDate": "2019-10-24T16:24:31.087",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": "cincybelvs"
     },
     {
-      "edgeId": "Edge Id 9",
-      "edgeServerName": "edge server name 9",
-      "ipAddress": "124.54.44.33",
-      "date": "2020-03-02 10:10:10",
-      "id": 10
+      "id": "643f997f-a88f-4105-81a0-5f37640d1f8f",
+      "name": "SentinelCincinnati",
+      "ipAddress": "192.168.61.40",
+      "createdDate": "2019-07-25T08:49:36.99",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": null
+    },
+    {
+      "id": "83333f0f-b784-4e7e-b601-c3c07cf8facb",
+      "name": "SentinelWoW",
+      "ipAddress": "192.168.41.40",
+      "createdDate": "2019-07-25T08:48:50.957",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": null
+    },
+    {
+      "id": "a2650e57-9acf-4722-a1c0-07d481418932",
+      "name": "testEdge",
+      "ipAddress": "test",
+      "createdDate": "2019-08-29T07:30:40.987",
+      "modifiedDate": "2020-02-16T09:53:51.593",
+      "adServerId": "labvs"
     }
   ],
   "greenList": [
     {
-      "name": "greenlist name 1",
-      "duration": "18",
+      "name": "48063084",
+      "duration": "51",
       "usageCount": 20,
       "lastUsedDate": "1976-04-19T12:59-0500",
       "date": "1976-04-19T12:59-0500",
       "id": 1
     },
     {
-      "name": "greenlist name 2",
-      "duration": "22",
+      "name": "48063088",
+      "duration": "2",
       "usageCount": 20,
       "lastUsedDate": "1976-04-19T12:59-0500",
       "date": "1976-04-19T12:59-0500",
       "id": 2
     },
     {
-      "name": "greenlist name 3",
-      "duration": "21",
+      "name": "48063082",
+      "duration": "28",
       "usageCount": 20,
       "lastUsedDate": "1976-04-19T12:59-0500",
       "date": "1976-04-19T12:59-0500",
       "id": 3
     },
     {
-      "name": "greenlist name 4",
-      "duration": "13",
-      "usageCount": 23,
-      "lastUsedDate": "1976-04-19T12:59-0500",
-      "date": "1976-04-19T12:59-0500",
-      "id": 4
-    },
-    {
-      "name": "greenlist name 5",
+      "name": "48001111",
       "duration": "26",
       "usageCount": 42,
       "lastUsedDate": "1976-04-19T12:59-0500",
@@ -106,7 +119,7 @@
       "id": 9
     },
     {
-      "name": "greenlist name 6",
+      "name": "48002222",
       "duration": "24",
       "usageCount": 63,
       "lastUsedDate": "1976-04-19T12:59-0500",
@@ -114,119 +127,886 @@
       "id": 10
     },
     {
-      "name": "greenlist name 7",
+      "name": "55875254",
       "duration": "53",
       "usageCount": 55,
       "lastUsedDate": "1976-04-19T12:59-0500",
       "date": "1976-04-19T12:59-0500",
       "id": 14
+    },
+    {
+      "name": "5488787",
+      "duration": "34",
+      "usageCount": "",
+      "id": 15
     }
   ],
   "sspMaster": [
     {
-      "sspName": "SSP name 1",
-      "endPoint": "http://localhost:3000",
-      "date": "2019-04-19T12:59-0500",
       "id": 1,
-      "parameters": [
+      "name": "ssp.lkqd.net",
+      "endPoint": "https://ssp.lkqd.net/ad?",
+      "createdDate": "2019-05-10T12:58:33.983",
+      "modifiedDate": null,
+      "sspConfiguration": [
         {
-          "parameterName": "Parameter name 1",
-          "dbField": "Program_Episode",
-          "defaultValue": "",
-          "isComputed": true,
-          "date": "2019-04-19T12:59-0500",
-          "sspId": 1,
-          "id": 11
+          "id": 1,
+          "sspMasterID": 1,
+          "parameter": "pid",
+          "dbField": null,
+          "defaultValue": "569",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:04:16.677",
+          "modifiedDate": "2020-03-12T08:01:23.597"
         },
         {
-          "id": 12,
-          "parameterName": "Parameter name 2",
-          "dbField": "",
+          "id": 2,
+          "sspMasterID": 1,
+          "parameter": "sid",
+          "dbField": null,
+          "defaultValue": "1029151",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:04:50.893",
+          "modifiedDate": null
+        },
+        {
+          "id": 3,
+          "sspMasterID": 1,
+          "parameter": "output",
+          "dbField": null,
+          "defaultValue": "vast",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:06:39.757",
+          "modifiedDate": null
+        },
+        {
+          "id": 4,
+          "sspMasterID": 1,
+          "parameter": "execution",
+          "dbField": null,
+          "defaultValue": "any",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:07:36.03",
+          "modifiedDate": null
+        },
+        {
+          "id": 5,
+          "sspMasterID": 1,
+          "parameter": "placement",
+          "dbField": null,
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:07:52.513",
+          "modifiedDate": null
+        },
+        {
+          "id": 6,
+          "sspMasterID": 1,
+          "parameter": "playinit",
+          "dbField": null,
           "defaultValue": "auto",
           "isComputed": false,
-          "date": "2019-04-19T12:59-0500",
-          "sspId": 1
+          "createdDate": "2019-05-13T06:08:10.253",
+          "modifiedDate": null
+        },
+        {
+          "id": 7,
+          "sspMasterID": 1,
+          "parameter": "volume",
+          "dbField": null,
+          "defaultValue": "100",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:08:29.55",
+          "modifiedDate": null
+        },
+        {
+          "id": 8,
+          "sspMasterID": 1,
+          "parameter": "width",
+          "dbField": null,
+          "defaultValue": "1920",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:09:53.443",
+          "modifiedDate": null
+        },
+        {
+          "id": 9,
+          "sspMasterID": 1,
+          "parameter": "height",
+          "dbField": null,
+          "defaultValue": "1080",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:10:26.86",
+          "modifiedDate": null
+        },
+        {
+          "id": 15,
+          "sspMasterID": 1,
+          "parameter": "c1",
+          "dbField": "Base_netName",
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:15:19.84",
+          "modifiedDate": null
+        },
+        {
+          "id": 18,
+          "sspMasterID": 1,
+          "parameter": "c4",
+          "dbField": null,
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2019-05-13T06:24:43.827",
+          "modifiedDate": null
+        },
+        {
+          "id": 32,
+          "sspMasterID": 1,
+          "parameter": "rnd",
+          "dbField": null,
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2019-06-26T06:32:01.927",
+          "modifiedDate": null
+        },
+        {
+          "id": 33,
+          "sspMasterID": 1,
+          "parameter": "c30",
+          "dbField": "Estimated_Impressions",
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2019-05-13T00:00:00",
+          "modifiedDate": null
         }
       ]
     },
     {
-      "sspName": "SSP name 2",
-      "endPoint": "http://localhost:3000",
-      "date": "2019-02-11T12:59-0500",
       "id": 2,
-      "parameters": [
+      "name": "Rubicon",
+      "endPoint": "https://fastlane-adv.rubiconproject.com/v1/pod/video/vast-pod.xml?",
+      "createdDate": "2019-09-25T09:22:14.75",
+      "modifiedDate": null,
+      "sspConfiguration": [
         {
-          "id": 13,
-          "parameterName": "Parameter name 1 SSP 2",
-          "dbField": "Program_Episode",
-          "defaultValue": "",
+          "id": 34,
+          "sspMasterID": 2,
+          "parameter": "account_id",
+          "dbField": null,
+          "defaultValue": "21282",
           "isComputed": false,
-          "date": "2019-04-19T12:59-0500",
-          "sspId": 2
+          "createdDate": "2019-09-25T11:05:34.403",
+          "modifiedDate": null
         },
         {
-          "parameterName": "Parameter name 2 SSP 2",
-          "dbField": "Abcde",
-          "defaultValue": "",
-          "isComputed": true,
-          "date": "",
-          "id": 14
+          "id": 35,
+          "sspMasterID": 2,
+          "parameter": "site_id",
+          "dbField": null,
+          "defaultValue": "277254",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:07:05.077",
+          "modifiedDate": null
         },
         {
-          "parameterName": "Parameter name 3 SSP 2",
-          "dbField": "Pqrs",
-          "defaultValue": "",
+          "id": 36,
+          "sspMasterID": 2,
+          "parameter": "zone_id",
+          "dbField": null,
+          "defaultValue": "1418208",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:10:03.967",
+          "modifiedDate": null
+        },
+        {
+          "id": 37,
+          "sspMasterID": 2,
+          "parameter": "size_id",
+          "dbField": null,
+          "defaultValue": "204",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:16:22.913",
+          "modifiedDate": null
+        },
+        {
+          "id": 38,
+          "sspMasterID": 2,
+          "parameter": "tg_c.language",
+          "dbField": null,
+          "defaultValue": "En",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:17:42.903",
+          "modifiedDate": null
+        },
+        {
+          "id": 39,
+          "sspMasterID": 2,
+          "parameter": "width",
+          "dbField": null,
+          "defaultValue": "1280",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:18:23.12",
+          "modifiedDate": null
+        },
+        {
+          "id": 40,
+          "sspMasterID": 2,
+          "parameter": "height",
+          "dbField": null,
+          "defaultValue": "720",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:19:07.35",
+          "modifiedDate": null
+        },
+        {
+          "id": 41,
+          "sspMasterID": 2,
+          "parameter": "x_source.ssreq",
+          "dbField": null,
+          "defaultValue": "1",
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:22:28.92",
+          "modifiedDate": null
+        },
+        {
+          "id": 42,
+          "sspMasterID": 2,
+          "parameter": "ad_pod_duration_sec",
+          "dbField": "",
+          "defaultValue": null,
           "isComputed": true,
-          "date": "",
-          "id": 15
+          "createdDate": "2019-09-25T11:23:30.07",
+          "modifiedDate": null
+        },
+        {
+          "id": 43,
+          "sspMasterID": 2,
+          "parameter": "c_episode",
+          "dbField": "Program_Episode",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:26:14.623",
+          "modifiedDate": null
+        },
+        {
+          "id": 44,
+          "sspMasterID": 2,
+          "parameter": "c_title",
+          "dbField": "Program",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:26:59.623",
+          "modifiedDate": null
+        },
+        {
+          "id": 45,
+          "sspMasterID": 2,
+          "parameter": "c_genre",
+          "dbField": "Program_genre1",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T11:28:29.147",
+          "modifiedDate": null
+        },
+        {
+          "id": 46,
+          "sspMasterID": 2,
+          "parameter": "c_contentrating",
+          "dbField": "Program_Law_Rating",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T12:28:46.087",
+          "modifiedDate": null
+        },
+        {
+          "id": 47,
+          "sspMasterID": 2,
+          "parameter": "c_livestream",
+          "dbField": "Program_Live",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:08:54.563",
+          "modifiedDate": null
+        },
+        {
+          "id": 48,
+          "sspMasterID": 2,
+          "parameter": "c_len",
+          "dbField": "Program_Length",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:09:30.33",
+          "modifiedDate": null
+        },
+        {
+          "id": 49,
+          "sspMasterID": 2,
+          "parameter": "rp_imp_multiply",
+          "dbField": "Estimated_Impressions",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:10:09.08",
+          "modifiedDate": null
+        },
+        {
+          "id": 50,
+          "sspMasterID": 2,
+          "parameter": "tg_v.zip",
+          "dbField": "ZipCodes",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:11:10.5",
+          "modifiedDate": null
+        },
+        {
+          "id": 51,
+          "sspMasterID": 2,
+          "parameter": "tg_v.dma",
+          "dbField": "DMA",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:11:47.8",
+          "modifiedDate": null
+        },
+        {
+          "id": 54,
+          "sspMasterID": 2,
+          "parameter": "p_aso.video.minduration",
+          "dbField": null,
+          "defaultValue": "15",
+          "isComputed": false,
+          "createdDate": "2019-09-25T13:23:49.143",
+          "modifiedDate": null
+        },
+        {
+          "id": 55,
+          "sspMasterID": 2,
+          "parameter": "p_aso.video.maxduration",
+          "dbField": "",
+          "defaultValue": "60",
+          "isComputed": true,
+          "createdDate": "2019-09-25T13:24:36.593",
+          "modifiedDate": null
+        },
+        {
+          "id": 70,
+          "sspMasterID": 2,
+          "parameter": "tg_i.state",
+          "dbField": "DMA_Code",
+          "defaultValue": null,
+          "isComputed": true,
+          "createdDate": "2019-12-26T18:16:51.86",
+          "modifiedDate": null
+        },
+        {
+          "id": 71,
+          "sspMasterID": 2,
+          "parameter": "tg_i.network",
+          "dbField": "Base_netName",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2020-02-03T15:03:23.15",
+          "modifiedDate": null
         }
       ]
     },
     {
       "id": 3,
-      "sspName": "SSP name 3",
-      "endPoint": "http://localhost:3000",
-      "date": "2019-04-19T12:59-0500"
+      "name": "EMX",
+      "endPoint": "https://tv.emxdgt.com/vast?",
+      "createdDate": "2019-10-19T00:00:00",
+      "modifiedDate": null,
+      "sspConfiguration": [
+        {
+          "id": 56,
+          "sspMasterID": 3,
+          "parameter": "id",
+          "dbField": null,
+          "defaultValue": "1",
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 57,
+          "sspMasterID": 3,
+          "parameter": "episode",
+          "dbField": "Program_Episode",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 58,
+          "sspMasterID": 3,
+          "parameter": "show",
+          "dbField": "Program",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 59,
+          "sspMasterID": 3,
+          "parameter": "genre",
+          "dbField": "Program_genre1",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 60,
+          "sspMasterID": 3,
+          "parameter": "rating",
+          "dbField": "Program_Law_Rating",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 61,
+          "sspMasterID": 3,
+          "parameter": "live",
+          "dbField": "Program_Live",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 62,
+          "sspMasterID": 3,
+          "parameter": "length",
+          "dbField": "Program_Length",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 63,
+          "sspMasterID": 3,
+          "parameter": "imp_count",
+          "dbField": "Estimated_Impressions",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 64,
+          "sspMasterID": 3,
+          "parameter": "age",
+          "dbField": "Net_Index3",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 65,
+          "sspMasterID": 3,
+          "parameter": "gender",
+          "dbField": "Net_Index2",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 66,
+          "sspMasterID": 3,
+          "parameter": "income",
+          "dbField": "Net_Index1",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 67,
+          "sspMasterID": 3,
+          "parameter": "child",
+          "dbField": null,
+          "defaultValue": "1",
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 68,
+          "sspMasterID": 3,
+          "parameter": "zip",
+          "dbField": "ZipCodes",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        },
+        {
+          "id": 69,
+          "sspMasterID": 3,
+          "parameter": "dma",
+          "dbField": "DMA",
+          "defaultValue": null,
+          "isComputed": false,
+          "createdDate": "2019-10-19T00:00:00",
+          "modifiedDate": null
+        }
+      ]
     },
     {
-      "sspName": "SSP name 4",
-      "endPoint": "http://localhost:3000",
-      "date": "2019-04-19T12:59-0500",
-      "id": 4
+      "id": 4,
+      "name": "test123",
+      "endPoint": "http://hdsakjds.asfsa.com",
+      "createdDate": "2020-03-17T11:54:40.407",
+      "modifiedDate": "2020-03-17T11:54:40.407",
+      "sspConfiguration": []
     },
     {
-      "sspName": "SSP name 5",
-      "endPoint": "http://google.com/",
-      "id": 5
+      "id": 5,
+      "name": "regfg",
+      "endPoint": "fffffjgf",
+      "createdDate": "2020-03-19T12:36:52.903",
+      "modifiedDate": "2020-03-19T12:36:52.903",
+      "sspConfiguration": [
+        {
+          "id": 72,
+          "sspMasterID": 5,
+          "parameter": "trtetf",
+          "dbField": "",
+          "defaultValue": "kjkjkj",
+          "isComputed": false,
+          "createdDate": "2020-03-19T12:37:48.36",
+          "modifiedDate": "2020-03-19T12:37:48.36"
+        },
+        {
+          "id": 76,
+          "sspMasterID": 5,
+          "parameter": "fdstrtetf",
+          "dbField": "DMA_State",
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2020-03-19T12:45:22.81",
+          "modifiedDate": "2020-03-19T12:45:22.81"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "dsad",
+      "endPoint": "zcxzczc",
+      "createdDate": "2020-03-19T12:38:30.19",
+      "modifiedDate": "2020-03-19T12:38:30.19",
+      "sspConfiguration": [
+        {
+          "id": 73,
+          "sspMasterID": 6,
+          "parameter": "cxcxcxc",
+          "dbField": "",
+          "defaultValue": "zxczxc",
+          "isComputed": false,
+          "createdDate": "2020-03-19T12:38:43.013",
+          "modifiedDate": "2020-03-19T12:38:43.013"
+        },
+        {
+          "id": 74,
+          "sspMasterID": 6,
+          "parameter": "asd",
+          "dbField": "Weekday",
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2020-03-19T12:42:12.463",
+          "modifiedDate": "2020-03-19T12:42:12.463"
+        },
+        {
+          "id": 75,
+          "sspMasterID": 6,
+          "parameter": "asda",
+          "dbField": "Comscore_NetId",
+          "defaultValue": "",
+          "isComputed": false,
+          "createdDate": "2020-03-19T12:42:44.443",
+          "modifiedDate": "2020-03-19T12:42:44.443"
+        }
+      ]
+    },
+    {
+      "Name": "EMX",
+      "EndPoint": "https://tv.emxdgt.com/vast?t",
+      "id": 7
+    },
+    {
+      "Name": "hhh",
+      "EndPoint": "hhh",
+      "id": 8
     }
   ],
   "parameters": [
     {
-      "parameterName": "Parameter name 1",
+      "id": 34,
+      "sspMasterID": 2,
+      "parameter": "account_id",
+      "dbField": null,
+      "defaultValue": "21282",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:05:34.403",
+      "modifiedDate": null
+    },
+    {
+      "id": 35,
+      "sspMasterID": 2,
+      "parameter": "site_id",
+      "dbField": null,
+      "defaultValue": "277254",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:07:05.077",
+      "modifiedDate": null
+    },
+    {
+      "id": 36,
+      "sspMasterID": 2,
+      "parameter": "zone_id",
+      "dbField": null,
+      "defaultValue": "1418208",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:10:03.967",
+      "modifiedDate": null
+    },
+    {
+      "id": 37,
+      "sspMasterID": 2,
+      "parameter": "size_id",
+      "dbField": null,
+      "defaultValue": "204",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:16:22.913",
+      "modifiedDate": null
+    },
+    {
+      "id": 38,
+      "sspMasterID": 2,
+      "parameter": "tg_c.language",
+      "dbField": null,
+      "defaultValue": "En",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:17:42.903",
+      "modifiedDate": null
+    },
+    {
+      "id": 39,
+      "sspMasterID": 2,
+      "parameter": "width",
+      "dbField": null,
+      "defaultValue": "1280",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:18:23.12",
+      "modifiedDate": null
+    },
+    {
+      "id": 40,
+      "sspMasterID": 2,
+      "parameter": "height",
+      "dbField": null,
+      "defaultValue": "720",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:19:07.35",
+      "modifiedDate": null
+    },
+    {
+      "id": 41,
+      "sspMasterID": 2,
+      "parameter": "x_source.ssreq",
+      "dbField": null,
+      "defaultValue": "1",
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:22:28.92",
+      "modifiedDate": null
+    },
+    {
+      "id": 42,
+      "sspMasterID": 2,
+      "parameter": "ad_pod_duration_sec",
       "dbField": "",
-      "defaultValue": "Fill",
+      "defaultValue": null,
       "isComputed": true,
-      "date": "2019-04-19T12:59-0500",
-      "sspId": 1,
-      "id": 11
+      "createdDate": "2019-09-25T11:23:30.07",
+      "modifiedDate": null
     },
     {
-      "id": 12,
-      "parameterName": "Parameter name 2",
+      "id": 43,
+      "sspMasterID": 2,
+      "parameter": "c_episode",
       "dbField": "Program_Episode",
-      "defaultValue": "",
+      "defaultValue": null,
       "isComputed": false,
-      "date": "2019-04-19T12:59-0500",
-      "sspId": 1
+      "createdDate": "2019-09-25T11:26:14.623",
+      "modifiedDate": null
     },
     {
-      "id": 13,
-      "parameterName": "Parameter name 3",
-      "dbField": "Program_Episode",
-      "defaultValue": "",
+      "id": 44,
+      "sspMasterID": 2,
+      "parameter": "c_title",
+      "dbField": "Program",
+      "defaultValue": null,
       "isComputed": false,
-      "date": "2019-04-19T12:59-0500",
-      "sspId": 2
+      "createdDate": "2019-09-25T11:26:59.623",
+      "modifiedDate": null
+    },
+    {
+      "id": 45,
+      "sspMasterID": 2,
+      "parameter": "c_genre",
+      "dbField": "Program_genre1",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T11:28:29.147",
+      "modifiedDate": null
+    },
+    {
+      "id": 46,
+      "sspMasterID": 2,
+      "parameter": "c_contentrating",
+      "dbField": "Program_Law_Rating",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T12:28:46.087",
+      "modifiedDate": null
+    },
+    {
+      "id": 47,
+      "sspMasterID": 2,
+      "parameter": "c_livestream",
+      "dbField": "Program_Live",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:08:54.563",
+      "modifiedDate": null
+    },
+    {
+      "id": 48,
+      "sspMasterID": 2,
+      "parameter": "c_len",
+      "dbField": "Program_Length",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:09:30.33",
+      "modifiedDate": null
+    },
+    {
+      "id": 49,
+      "sspMasterID": 2,
+      "parameter": "rp_imp_multiply",
+      "dbField": "Estimated_Impressions",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:10:09.08",
+      "modifiedDate": null
+    },
+    {
+      "id": 50,
+      "sspMasterID": 2,
+      "parameter": "tg_v.zip",
+      "dbField": "ZipCodes",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:11:10.5",
+      "modifiedDate": null
+    },
+    {
+      "id": 51,
+      "sspMasterID": 2,
+      "parameter": "tg_v.dma",
+      "dbField": "DMA",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:11:47.8",
+      "modifiedDate": null
+    },
+    {
+      "id": 54,
+      "sspMasterID": 2,
+      "parameter": "p_aso.video.minduration",
+      "dbField": null,
+      "defaultValue": "15",
+      "isComputed": false,
+      "createdDate": "2019-09-25T13:23:49.143",
+      "modifiedDate": null
+    },
+    {
+      "id": 55,
+      "sspMasterID": 2,
+      "parameter": "p_aso.video.maxduration",
+      "dbField": "",
+      "defaultValue": "60",
+      "isComputed": true,
+      "createdDate": "2019-09-25T13:24:36.593",
+      "modifiedDate": null
+    },
+    {
+      "id": 70,
+      "sspMasterID": 2,
+      "parameter": "tg_i.state",
+      "dbField": "DMA_Code",
+      "defaultValue": null,
+      "isComputed": true,
+      "createdDate": "2019-12-26T18:16:51.86",
+      "modifiedDate": null
+    },
+    {
+      "id": 71,
+      "sspMasterID": 2,
+      "parameter": "tg_i.network",
+      "dbField": "Base_netName",
+      "defaultValue": null,
+      "isComputed": false,
+      "createdDate": "2020-02-03T15:03:23.15",
+      "modifiedDate": null
+    }
+  ],
+  "businessRules": [
+    {
+      "id": 190,
+      "cueNet": "TWC",
+      "cueZone": "CSD",
+      "businessRules": null,
+      "isActive": true,
+      "createdDate": "2020-03-18T07:02:58.907",
+      "modifiedDate": "2020-03-18T07:02:58.937",
+      "createdBy": 1,
+      "modifiedBy": 1,
+      "createdByName": "admin",
+      "modifiedByName": "admin"
+    },
+    {
+      "id": 189,
+      "cueNet": "VH1",
+      "cueZone": "CSD",
+      "businessRules": null,
+      "isActive": true,
+      "createdDate": "2020-03-06T09:20:10.9",
+      "modifiedDate": "2020-03-06T09:20:10.93",
+      "createdBy": 1,
+      "modifiedBy": 1,
+      "createdByName": "admin",
+      "modifiedByName": "admin"
+    },
+    {
+      "id": 188,
+      "cueNet": "DISC",
+      "cueZone": "KCD",
+      "businessRules": null,
+      "isActive": true,
+      "createdDate": "2020-03-06T09:19:38.47",
+      "modifiedDate": "2020-03-06T09:19:38.503",
+      "createdBy": 1,
+      "modifiedBy": 1,
+      "createdByName": "admin",
+      "modifiedByName": "admin"
     }
   ]
 }
